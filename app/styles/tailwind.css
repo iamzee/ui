@@ -1,6 +1,38 @@
+/* theses colors are copied from tailwind css color palette - https://tailwindcss.com/docs/customizing-colors */
+/* brand color -> tailwind-css violet */
+/* neutral -> tailwind-css stone */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-50: 250 100% 98%;
+    --brand-100: 251 91% 95%;
+    --brand-200: 251 95% 92%;
+    --brand-300: 252 95% 85%;
+    --brand-400: 255 92% 76%;
+    --brand-500: 258 90% 66%;
+    --brand-600: 262 83% 58%;
+    --brand-700: 263 70% 50%;
+    --brand-800: 263 69% 42%;
+    --brand-900: 264 67% 35%;
+    --brand-950: 261 73% 23%;
+
+    --neutral-50: 60 9% 98%;
+    --neutral-100: 60 5% 96%;
+    --neutral-200: 20 6% 90%;
+    --neutral-300: 24 6% 83%;
+    --neutral-400: 24 5% 64%;
+    --neutral-500: 25 5% 45%;
+    --neutral-600: 33 5% 32%;
+    --neutral-700: 30 6% 25%;
+    --neutral-800: 12 6% 15%;
+    --neutral-900: 24 10% 10%;
+    --neutral-950: 20 14% 4%;
+  }
+}
 
 @layer base {
   * {
