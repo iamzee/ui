@@ -6,7 +6,7 @@ import { cn } from '~/utils/cn';
 
 const buttonVarians = cva(
   [
-    'inline-flex, items-center, justify-center, whitespace-nowrap',
+    'inline-flex items-center justify-center whitespace-nowrap',
     'focus:outline-none focus:ring-2',
     'disabled:pointer-events-none disabled:opacity-50',
   ],

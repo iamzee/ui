@@ -1,13 +1,42 @@
+import { Icon } from '~/components/icons';
 import { Button } from '~/components/ui/button';
 
 export default function ButtonRoute() {
   return (
     <div className="p-10 space-y-10">
       <div className="space-x-10">
-        <Button>Brand</Button>
-        <Button variant="soft">Brand</Button>
-        <Button variant="outline">Brand</Button>
-        <Button variant="text">Brand</Button>
+        <Button>
+          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          Add to cart
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
+        <Button variant="soft">
+          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          Add to cart
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
+        <Button variant="outline">
+          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          Add to cart
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
+        <Button variant="text">
+          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          Add to cart
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
         <Button isDisabled>Brand</Button>
         <Button variant="soft" isDisabled>
           Brand
@@ -20,15 +49,37 @@ export default function ButtonRoute() {
         </Button>
       </div>
       <div className="space-x-10">
-        <Button color="neutral">Neutral</Button>
+        <Button color="neutral">
+          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          Share location
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
         <Button color="neutral" variant="soft">
-          Neutral
+          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          Share location
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
         <Button color="neutral" variant="outline">
-          Neutral
+          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          Share location
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
         <Button color="neutral" variant="text">
-          Neutral
+          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          Share location
+          <Icon
+            name="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
         <Button color="neutral" isDisabled>
           Neutral
