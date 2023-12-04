@@ -24,6 +24,7 @@ const buttonVarians = cva(
       },
     },
     compoundVariants: [
+      // BRAND STYLES ----------------------------------------------------------------------
       {
         variant: 'fill',
         color: 'brand',
@@ -58,6 +59,43 @@ const buttonVarians = cva(
           'bg-transparent text-brand-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-brand-100',
           'focus:bg-brand-100 focus:ring-brand-300 focus:ring-offset-0',
+        ],
+      },
+      // NEUTRAL STYLES ----------------------------------------------------------------------
+      {
+        variant: 'fill',
+        color: 'neutral',
+        className: [
+          'bg-neutral-700 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-neutral-800',
+          'focus:bg-neutral-800  focus:ring-neutral-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'soft',
+        color: 'neutral',
+        className: [
+          'bg-neutral-100 text-neutral-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-neutral-200 hover:text-neutral-700',
+          'focus:bg-neutral-200 focus:text-neutral-700 focus:ring-neutral-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'outline',
+        color: 'neutral',
+        className: [
+          'bg-transparent text-neutral-700 border border-neutral-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-neutral-100',
+          'focus:bg-neutral-100 focus:ring-neutral-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'text',
+        color: 'neutral',
+        className: [
+          'bg-transparent text-neutral-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-neutral-100',
+          'focus:bg-neutral-100 focus:ring-neutral-300 focus:ring-offset-0',
         ],
       },
     ],
