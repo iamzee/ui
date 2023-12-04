@@ -21,6 +21,7 @@ const buttonVarians = cva(
       color: {
         brand: '',
         neutral: '',
+        error: '',
       },
     },
     compoundVariants: [
@@ -96,6 +97,43 @@ const buttonVarians = cva(
           'bg-transparent text-neutral-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-neutral-100',
           'focus:bg-neutral-100 focus:ring-neutral-300 focus:ring-offset-0',
+        ],
+      },
+      // ERROR STYLES ----------------------------------------------------------------------
+      {
+        variant: 'fill',
+        color: 'error',
+        className: [
+          'bg-error-700 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-error-800',
+          'focus:bg-error-800  focus:ring-error-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'soft',
+        color: 'error',
+        className: [
+          'bg-error-100 text-error-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-error-200 hover:text-error-700',
+          'focus:bg-error-200 focus:text-error-700 focus:ring-error-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'outline',
+        color: 'error',
+        className: [
+          'bg-transparent text-error-700 border border-error-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-error-100',
+          'focus:bg-error-100 focus:ring-error-300 focus:ring-offset-0',
+        ],
+      },
+      {
+        variant: 'text',
+        color: 'error',
+        className: [
+          'bg-transparent text-error-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-error-100',
+          'focus:bg-error-100 focus:ring-error-300 focus:ring-offset-0',
         ],
       },
     ],

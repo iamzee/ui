@@ -43,6 +43,30 @@ export default function ButtonRoute() {
           Neutral
         </Button>
       </div>
+      <div className="space-x-10">
+        <Button color="error">Error</Button>
+        <Button color="error" variant="soft">
+          Error
+        </Button>
+        <Button color="error" variant="outline">
+          Error
+        </Button>
+        <Button color="error" variant="text">
+          Error
+        </Button>
+        <Button color="error" isDisabled>
+          Error
+        </Button>
+        <Button color="error" variant="soft" isDisabled>
+          Error
+        </Button>
+        <Button color="error" variant="outline" isDisabled>
+          Error
+        </Button>
+        <Button color="error" variant="text" isDisabled>
+          Error
+        </Button>
+      </div>
     </div>
   );
 }
