@@ -1,6 +1,7 @@
 /* theses colors are copied from tailwind css color palette - https://tailwindcss.com/docs/customizing-colors */
 /* brand color -> tailwind-css violet */
 /* neutral -> tailwind-css stone */
+/* error -> tailwind-css rose */
 
 @tailwind base;
 @tailwind components;
