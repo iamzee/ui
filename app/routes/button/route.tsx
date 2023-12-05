@@ -73,27 +73,49 @@ export default function ButtonRoute() {
         </Button>
       </div>
       <div className="space-x-10">
-        <Button color="error">Error</Button>
+        <Button color="error">
+          <Icon
+            icon="solar:trash-bin-minimalistic-2-bold"
+            className="w-4 h-4 mr-2"
+          />
+          Delete
+          <Icon
+            icon="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
+        </Button>
         <Button color="error" variant="soft">
-          Error
+          <Icon
+            icon="solar:trash-bin-minimalistic-2-bold"
+            className="w-4 h-4 mr-2"
+          />
+          Delete
+          <Icon
+            icon="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
         <Button color="error" variant="outline">
-          Error
+          <Icon
+            icon="solar:trash-bin-minimalistic-2-bold"
+            className="w-4 h-4 mr-2"
+          />
+          Delete
+          <Icon
+            icon="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
         <Button color="error" variant="text">
-          Error
-        </Button>
-        <Button color="error" isDisabled>
-          Error
-        </Button>
-        <Button color="error" variant="soft" isDisabled>
-          Error
-        </Button>
-        <Button color="error" variant="outline" isDisabled>
-          Error
-        </Button>
-        <Button color="error" variant="text" isDisabled>
-          Error
+          <Icon
+            icon="solar:trash-bin-minimalistic-2-bold"
+            className="w-4 h-4 mr-2"
+          />
+          Delete
+          <Icon
+            icon="solar:round-alt-arrow-right-bold"
+            className="w-4 h-4 ml-2"
+          />
         </Button>
       </div>
     </div>
