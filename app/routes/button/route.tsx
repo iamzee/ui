@@ -38,16 +38,6 @@ export default function ButtonRoute() {
             className="w-4 h-4 ml-2"
           />
         </Button>
-        <Button isDisabled>Brand</Button>
-        <Button variant="soft" isDisabled>
-          Brand
-        </Button>
-        <Button variant="outline" isDisabled>
-          Brand
-        </Button>
-        <Button variant="text" isDisabled>
-          Brand
-        </Button>
       </div>
       <div className="space-x-10">
         <Button color="neutral">
@@ -81,18 +71,6 @@ export default function ButtonRoute() {
             icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
-        </Button>
-        <Button color="neutral" isDisabled>
-          Neutral
-        </Button>
-        <Button color="neutral" variant="soft" isDisabled>
-          Neutral
-        </Button>
-        <Button color="neutral" variant="outline" isDisabled>
-          Neutral
-        </Button>
-        <Button color="neutral" variant="text" isDisabled>
-          Neutral
         </Button>
       </div>
       <div className="space-x-10">
