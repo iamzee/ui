@@ -1,39 +1,40 @@
-import { Icon } from '~/components/icons';
+// import { Icon } from '~/components/icons';
 import { Button } from '~/components/ui/button';
+import { Icon } from '@iconify/react';
 
 export default function ButtonRoute() {
   return (
     <div className="p-10 space-y-10">
       <div className="space-x-10">
         <Button>
-          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
           Add to cart
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button variant="soft">
-          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
           Add to cart
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button variant="outline">
-          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
           Add to cart
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button variant="text">
-          <Icon name="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />
           Add to cart
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
@@ -50,34 +51,34 @@ export default function ButtonRoute() {
       </div>
       <div className="space-x-10">
         <Button color="neutral">
-          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
           Share location
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button color="neutral" variant="soft">
-          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
           Share location
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button color="neutral" variant="outline">
-          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
           Share location
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
         <Button color="neutral" variant="text">
-          <Icon name="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
+          <Icon icon="solar:map-point-wave-bold" className="w-4 h-4 mr-2" />
           Share location
           <Icon
-            name="solar:round-alt-arrow-right-bold"
+            icon="solar:round-alt-arrow-right-bold"
             className="w-4 h-4 ml-2"
           />
         </Button>
