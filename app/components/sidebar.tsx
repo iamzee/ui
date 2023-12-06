@@ -9,9 +9,9 @@ const Sidebar = () => {
         to="/button"
         className={({ isActive }) =>
           cn(
-            isActive ? 'text-neutral-900' : 'text-neutral-400',
+            isActive ? 'text-neutral-900' : 'text-neutral-500',
             'inline-block w-full rounded px-3',
-            'hover:text-neutral-700',
+            'hover:text-neutral-900',
           )
         }
       >
