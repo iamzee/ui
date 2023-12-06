@@ -44,11 +44,14 @@
     --error-800: 343 80% 35%;
     --error-900: 342 75% 30%;
     --error-950: 343 88% 16%;
+
+    --border: var(--neutral-200);
   }
 }
 
 @layer base {
   * {
+      @apply border-border;
     font-family: 'Roboto', sans-serif;
   }
 }

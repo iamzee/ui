@@ -9,6 +9,7 @@ import {
   ScrollRestoration,
 } from '@remix-run/react';
 import tailwindStylesheet from './styles/tailwind.css';
+import { Sidebar } from './components/sidebar';
 
 export const links: LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -35,7 +36,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <div className='grid grid-cols-[300px_1fr] relative'>
+          <Sidebar />
+          <Outlet />
+        </div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

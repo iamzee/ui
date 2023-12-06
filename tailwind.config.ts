@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        border: 'hsl(var(--border))',
         brand: {
           50: 'hsl(var(--brand-50))',
           100: 'hsl(var(--brand-100))',
