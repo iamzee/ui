@@ -1,9 +1,16 @@
 import { Button } from '~/components/ui/button';
 import { Icon } from '@iconify/react';
+import { Heading } from '~/components/ui/heading';
+import { Text } from '~/components/ui/text';
 
 export default function ButtonRoute() {
   return (
-    <div className="p-10 space-y-10">
+    <div className="space-y-10">
+      <Heading level={2}>Button</Heading>
+      <Text elementType="p" color="normal" className="text-xl">
+        A button allows a user to perform an action, with mouse, touch, and
+        keyboard interactions.
+      </Text>
       <div className="space-x-10">
         <Button>
           <Icon icon="solar:cart-large-2-bold" className="w-4 h-4 mr-2" />

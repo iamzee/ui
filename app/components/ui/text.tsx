@@ -16,7 +16,7 @@ const _textVariants = cva('', {
   },
 });
 
-type _TextProps = TextProps & { color: 'dark' | 'normal' | 'soft' };
+type _TextProps = TextProps & { color?: 'dark' | 'normal' | 'soft' };
 
 const _Text = ({ className, color, ...props }: _TextProps) => {
   return (
