@@ -2,6 +2,7 @@
  * TODO: add support for vertical tabs
  * TODO: add support for different sizes (same sizes that are in button)
  * TODO: handle focus for TabPanel component
+ * TODO: add border for the whole TabList width `for variant=text`
  */
 
 import { cva } from 'class-variance-authority';
