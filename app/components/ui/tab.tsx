@@ -1,6 +1,7 @@
 /**
  * TODO: add support for vertical tabs
  * TODO: add support for different sizes (same sizes that are in button)
+ * TODO: handle focus for TabPanel component
  */
 
 import { cva } from 'class-variance-authority';
