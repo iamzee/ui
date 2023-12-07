@@ -1,6 +1,8 @@
 /**
  * TODO: add support for text tabs (new variant)
  * TODO: add support for vertical tabs
+ * TODO: add support for different sizes
+ * TODO: export types
  */
 
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
