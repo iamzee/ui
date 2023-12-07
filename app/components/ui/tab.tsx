@@ -1,6 +1,6 @@
 /**
  * TODO: add support for vertical tabs
- * TODO: add support for different sizes
+ * TODO: add support for different sizes (same sizes that are in button)
  */
 
 import { cva } from 'class-variance-authority';
