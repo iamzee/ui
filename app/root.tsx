@@ -36,9 +36,11 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <div className='grid grid-cols-[300px_1fr] relative'>
+        <div className="grid grid-cols-[300px_1fr] relative">
           <Sidebar />
-          <Outlet />
+          <div className="p-10">
+            <Outlet />
+          </div>
         </div>
         <ScrollRestoration />
         <Scripts />
