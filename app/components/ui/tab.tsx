@@ -1,7 +1,6 @@
 /**
  * TODO: add support for vertical tabs
  * TODO: add support for different sizes
- * TODO: export types
  */
 
 import { cva } from 'class-variance-authority';
@@ -103,4 +102,11 @@ export {
   _TabList as TabList,
   _Tab as Tab,
   _TabPanel as TabPanel,
+};
+
+export type {
+  _TabsProps as TabsProps,
+  _TabListProps as TabListProps,
+  _TabProps as TabProps,
+  _TabPanelProps as TabPanelProps,
 };
