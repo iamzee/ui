@@ -34,16 +34,16 @@ const buttonVariants = cva(
         variant: 'fill',
         color: 'brand',
         className: [
-          'bg-brand-700 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
-          'hover:bg-brand-800',
-          'focus:bg-brand-800 ',
+          'bg-brand-500 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-brand-600',
+          'focus:bg-brand-600',
         ],
       },
       {
         variant: 'soft',
         color: 'brand',
         className: [
-          'bg-brand-100 text-brand-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'bg-brand-100 text-brand-500 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-brand-200 hover:text-brand-700',
           'focus:bg-brand-200 focus:text-brand-700',
         ],
@@ -52,16 +52,16 @@ const buttonVariants = cva(
         variant: 'outline',
         color: 'brand',
         className: [
-          'bg-transparent text-brand-700 border border-brand-300 text-sm font-medium h-10 px-4 py-2 rounded-md',
-          'hover:bg-brand-100',
-          'focus:bg-brand-100',
+          'bg-transparent text-brand-500 border border-brand-200 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:border-brand-500',
+          'focus:border-brand-300',
         ],
       },
       {
         variant: 'text',
         color: 'brand',
         className: [
-          'bg-transparent text-brand-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'bg-transparent text-brand-500 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-brand-100',
           'focus:bg-brand-100',
         ],
@@ -93,9 +93,9 @@ const buttonVariants = cva(
         variant: 'outline',
         color: 'neutral',
         className: [
-          'bg-transparent text-neutral-700 border border-neutral-300 text-sm font-medium h-10 px-4 py-2 rounded-md',
-          'hover:bg-neutral-100',
-          'focus:bg-neutral-100',
+          'bg-transparent text-neutral-700 border border-neutral-200 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:border-neutral-500',
+          'focus:border-neutral-300',
         ],
       },
       {
@@ -116,16 +116,16 @@ const buttonVariants = cva(
         variant: 'fill',
         color: 'error',
         className: [
-          'bg-error-700 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
-          'hover:bg-error-800',
-          'focus:bg-error-800 ',
+          'bg-error-500 text-white text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:bg-error-600',
+          'focus:bg-error-600 ',
         ],
       },
       {
         variant: 'soft',
         color: 'error',
         className: [
-          'bg-error-100 text-error-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'bg-error-100 text-error-500 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-error-200 hover:text-error-700',
           'focus:bg-error-200 focus:text-error-700',
         ],
@@ -134,16 +134,16 @@ const buttonVariants = cva(
         variant: 'outline',
         color: 'error',
         className: [
-          'bg-transparent text-error-700 border border-error-300 text-sm font-medium h-10 px-4 py-2 rounded-md',
-          'hover:bg-error-100',
-          'focus:bg-error-100',
+          'bg-transparent text-error-500 border border-error-200 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'hover:border-error-500',
+          'focus:border-error-300',
         ],
       },
       {
         variant: 'text',
         color: 'error',
         className: [
-          'bg-transparent text-error-700 text-sm font-medium h-10 px-4 py-2 rounded-md',
+          'bg-transparent text-error-500 text-sm font-medium h-10 px-4 py-2 rounded-md',
           'hover:bg-error-100',
           'focus:bg-error-100',
         ],
