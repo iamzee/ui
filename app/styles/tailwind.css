@@ -1,5 +1,5 @@
 /* theses colors are copied from tailwind css color palette - https://tailwindcss.com/docs/customizing-colors */
-/* brand color -> tailwind-css violet */
+/* brand color -> tailwind-css blue */
 /* neutral -> tailwind-css slate */
 /* error -> tailwind-css rose */
 
@@ -9,55 +9,45 @@
 
 @layer base {
   :root {
-    --brand-100: 224 100% 92%;
-    --brand-200: 224 100% 83%;
-    --brand-300: 224 100% 75%;
-    --brand-400: 224 100% 66%;
-    --brand-500: 224 100% 58%;
-    --brand-600: 224 72% 46%;
-    --brand-700: 224 72% 35%;
-    --brand-800: 224 73% 23%;
-    --brand-900: 224 72% 11%;
+    --brand-100: 214 95% 93%;
+    --brand-200: 213 97% 87%;
+    --brand-300: 212 96% 78%;
+    --brand-400: 213 94% 68%;
+    --brand-500: 217 91% 60%;
+    --brand-600: 221 83% 53%;
+    --brand-700: 224 76% 48%;
+    --brand-800: 226 71% 40%;
+    --brand-900: 224 64% 33%;
 
-    --neutral-100: 214 13% 90%;
-    --neutral-200: 214 15% 79%;
-    --neutral-300: 215 15% 68%;
-    --neutral-400: 215 14% 57%;
+    --neutral-100: 210 40% 96%;
+    --neutral-200: 214 32% 91%;
+    --neutral-300: 213 27% 84%;
+    --neutral-400: 215 20% 65%;
     --neutral-500: 215 16% 47%;
-    --neutral-600: 215 16% 37%;
-    --neutral-700: 217 16% 28%;
-    --neutral-800: 216 16% 19%;
-    --neutral-900: 214 15% 9%;
+    --neutral-600: 215 19% 35%;
+    --neutral-700: 215 25% 27%;
+    --neutral-800: 217 33% 17%;
+    --neutral-900: 222 47% 11%;
 
-    --error-100: 355 86% 92%;
-    --error-200: 355 88% 83%;
-    --error-300: 355 88% 75%;
-    --error-400: 355 88% 66%;
-    --error-500: 355 88% 58%;
-    --error-600: 355 64% 46%;
-    --error-700: 355 64% 35%;
-    --error-800: 355 64% 23%;
-    --error-900: 355 62% 11%;
+    --error-100: 356 100% 95%;
+    --error-200: 353 96% 90%;
+    --error-300: 353 96% 82%;
+    --error-400: 351 95% 71%;
+    --error-500: 350 89% 60%;
+    --error-600: 347 77% 50%;
+    --error-700: 345 83% 41%;
+    --error-800: 343 80% 35%;
+    --error-900: 342 75% 30%;
 
-    --success-100: 169 41% 87%;
-    --success-200: 170 42% 73%;
-    --success-300: 170 42% 59%;
-    --success-400: 170 50% 45%;
-    --success-500: 170 90% 32%;
-    --success-600: 170 91% 25%;
-    --success-700: 170 90% 19%;
-    --success-800: 170 91% 13%;
-    --success-900: 169 88% 6%;
-
-    --warning-100: 33 96% 90%;
-    --warning-200: 33 96% 80%;
-    --warning-300: 33 97% 70%;
-    --warning-400: 33 97% 59%;
-    --warning-500: 33 100% 49%;
-    --warning-600: 33 100% 39%;
-    --warning-700: 34 100% 29%;
-    --warning-800: 34 100% 20%;
-    --warning-900: 33 100% 10%;
+    --success-100: 141 84% 93%;
+    --success-200: 141 79% 85%;
+    --success-300: 142 77% 73%;
+    --success-400: 142 69% 58%;
+    --success-500: 142 71% 45%;
+    --success-600: 142 76% 36%;
+    --success-700: 142 72% 29%;
+    --success-800: 143 64% 24%;
+    --success-900: 144 61% 20%;
 
     --border: var(--neutral-200);
   }
