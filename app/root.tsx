@@ -10,6 +10,7 @@ import {
 } from '@remix-run/react';
 import tailwindStylesheet from './styles/tailwind.css';
 import { Sidebar } from './components/sidebar';
+import { Appbar } from './components/appbar';
 
 export const links: LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -36,6 +37,7 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <Appbar />
         <div className="grid grid-cols-[300px_1fr] relative">
           <Sidebar />
           <div className="p-10">

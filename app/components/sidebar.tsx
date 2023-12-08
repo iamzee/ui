@@ -3,7 +3,7 @@ import { cn } from '~/utils/cn';
 
 const Sidebar = () => {
   return (
-    <div className="border-r sticky h-screen p-10 space-y-3">
+    <div className="border-r sticky h-[calc(100vh-56px)] p-10 space-y-3">
       <p className="text-neutral-900 font-medium">Components</p>
       <NavLink
         to="/button"
